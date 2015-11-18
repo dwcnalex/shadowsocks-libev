@@ -62,6 +62,8 @@ Then,
 
 ``` bash
 sudo apt-get update
+wget http://launchpadlibrarian.net/181056638/init-system-helpers_1.20ubuntu3_all.deb
+dpkg -i init-system-helpers_1.20ubuntu3_all.deb
 sudo apt-get install shadowsocks-libev
 ```
 
